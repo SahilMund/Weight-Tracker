@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+.app {
+    text-align: center;
+}
+
+.head_txt {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/* -----------------auth.js -------------*/
+
+.auth {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    height: 40vh;
+    text-align: center;
+}
+
+.card_res {
+    border: 1px solid #eee;
+    margin-top: 10% !important;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+    transition: all .3s ease-in-out;
+    background-color: #c2c1d4a6 !important;
+}
+
+.card_res:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+}
+
+.auth_title {
+    font-family: 'Mountains of Christmas', cursive;
+    color: #120E43;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
